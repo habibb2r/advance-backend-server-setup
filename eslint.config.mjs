@@ -15,6 +15,9 @@ export default [
     rules: {
       eqeqeq: "off",
       "no-unused-vars": "error",
+      "no-unused-expressions":"error",
+      "no-undef":"error",
+      "no-console":"warn",
       "prefer-const": ["error", { ignoreReadBeforeAssign: true }],
     },
   },
